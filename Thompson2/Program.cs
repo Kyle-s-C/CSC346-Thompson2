@@ -10,16 +10,29 @@
 ***               Global, and an interface named IView            ***
 ********************************************************************/
 using NewVegasNS;
-
-
 namespace NewVegasApp
+
 {
+    using static Global;
     class Program
     {
+
+        /********************************************************************
+        *** METHOD: static void Main(string[] args)                       ***
+        *********************************************************************
+        *** DESCRIPTION : This method will be the starting point at which ***
+        ***               the code inside is executed when ran. In this   ***
+        ***               method individual's are created and then are    ***
+        ***               able to be viewed via ViewH(); or ViewV();      ***
+        *** INPUT ARGS : n/a                                              ***
+        *** OUTPUT ARGS : n/a                                             ***
+        *** IN/OUT ARGS : n/a                                             ***
+        *** RETURN : void - no value                                                 ***
+        ********************************************************************/
         static void Main(string[] args)
         {
             // Create a new NewVegas object
-            NewVegas List1 = new NewVegas(Global.NameType.SOLDIER, 2, 10, 10, 10, 80, 2, 15);
+            NewVegas List1 = new NewVegas(NameType.SOLDIER, 2, 10, 10, 10, 80, 2, 15);
 
             NewVegas ListDefault = new NewVegas();
 
