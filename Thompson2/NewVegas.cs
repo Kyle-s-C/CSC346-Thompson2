@@ -108,7 +108,7 @@ namespace NewVegasNS
         *** IN/OUT ARGS : n/a                                             ***
         *** RETURN : n/a                                                  ***
         ********************************************************************/
-        public void ViewV()
+                public void ViewV()
         {
             Console.WriteLine("{0,-15} {1, -10}", "Name: ", Name);
             Console.WriteLine("{0,-15} {1, -10}", "Strength: ", Strength);

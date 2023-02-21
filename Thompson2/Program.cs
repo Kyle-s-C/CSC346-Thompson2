@@ -27,7 +27,7 @@ namespace NewVegasApp
         *** INPUT ARGS : n/a                                              ***
         *** OUTPUT ARGS : n/a                                             ***
         *** IN/OUT ARGS : n/a                                             ***
-        *** RETURN : void - no value                                                 ***
+        *** RETURN : void - no value                                      ***
         ********************************************************************/
         static void Main(string[] args)
         {

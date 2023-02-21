@@ -13,7 +13,6 @@
 ***               components                                      ***
 ********************************************************************/
 
-
 namespace NewVegasNS
 {
     public static class Global
